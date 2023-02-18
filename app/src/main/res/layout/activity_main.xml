@@ -6,24 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:text="Send"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="382dp"
+        android:layout_height="75dp"
+        android:text="To"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="382dp"
+        android:layout_height="85dp"
+        android:hint="@string/Subject"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="390dp"
+        android:layout_height="478dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/message"
+        android:inputType="textMultiLine"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="183dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
