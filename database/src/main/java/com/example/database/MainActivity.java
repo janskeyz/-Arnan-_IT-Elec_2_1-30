@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         getData();
 
 
-        dbHelper.updateData(2, "Del", 26);
+        dbHelper.updateData(2, "Del", 25);
 
 
         getData();
